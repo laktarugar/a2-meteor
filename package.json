@@ -1,0 +1,24 @@
+{
+  "name": "todo-list-a2",
+  "version": "0.0.1",
+  "main": "src/todo-list-a2.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.37"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laktarugar/todo-list-a2.git"
+  },
+  "author": "laktarugar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laktarugar/todo-list-a2/issues"
+  },
+  "homepage": "https://github.com/laktarugar/todo-list-a2",
+  "engines": {
+    "node": "=> 0.12.x"
+  }
+}
