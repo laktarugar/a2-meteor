@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>    
+</head>
+<body>
+  <h1>Test generate</h1>
+  <app></app>
+  
+  <script src="https://code.angularjs.org/tools/system.js"></script>
+  <script src="https://code.angularjs.org/tools/typescript.js"></script>
+  <script src="https://code.angularjs.org/2.0.0-alpha.44/angular2.dev.js"></script>
+  <!--<script type="text/javascript" src="bundle.js" charset="utf-8"></script>-->
+  <script>
+    System.config({
+        transpiler: 'typescript',
+        typescriptOptions: { emitDecoratorMetadata: true }
+      });
+      System.import('./app.ts');
+  </script>
+</body>
+</html>

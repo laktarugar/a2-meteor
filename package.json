@@ -20,5 +20,17 @@
   "homepage": "https://github.com/laktarugar/todo-list-a2",
   "engines": {
     "node": "=> 0.12.x"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "babel-plugin-angular2-annotations": "^2.0.1",
+    "babel-runtime": "^5.8.24",
+    "gulp": "^3.9.0",
+    "gulp-bump": "^0.3.1",
+    "gulp-util": "^3.0.6",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.11.0"
   }
 }
